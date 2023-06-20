@@ -1,13 +1,28 @@
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
+import { CartWidget } from "./CartWidget";
+
+const menu = [
+  {text: "Ropa interior", link: "/#ropaInterior"},
+  {text: "Accesorios", link: "/#accesorios"},
+  {text: "Sobre Nosotras", link: "/#sobreNosotras"},
+  {text: "Blog", link: "/#contacto"}
+]
+
 export const NavBar = () => (
-  <header>
-    <h1>GINGER</h1>
-    <nav>
-      <a href="">Ginger</a>
-      <a href="">Accesorios</a>
-      <a href="">Blog</a>
-      <a href="">Contacto</a>
-      <a href="">Ropa Interior</a>
-      <a href="">Sobre Nosotras</a>
-    </nav>
-  </header>
+  <Navbar bg="primary" data-bs-theme="dark">
+    <Container>
+      <Navbar.Brand href="#home">GINGER</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="#ropaInterior">Ropa interior</Nav.Link>
+        <Nav.Link href="#accesorios">Accesorios</Nav.Link>
+        <Nav.Link href="#sobreNosotras">Sobre Nosotras</Nav.Link>
+        <Nav.Link href="#blog">Blog</Nav.Link>
+        <Nav.Link href="#contacto">Contacto</Nav.Link>
+      </Nav>
+      <CartWidget/>
+    </Container>
+  </Navbar>
 );
