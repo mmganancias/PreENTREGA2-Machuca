@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,3 +39,39 @@
     ]
   }
 }
+"product": {
+  {
+    "codigo": 01,
+    "nombre": "Conjunto-Ada",
+    "genero": "F",
+    "talle": {
+      "S": "true",
+      "M": "true",
+      "L": "true",
+    },
+    "stock": "true",
+    "imagen": "../imgs/ropainterior/conjunto1.jpg",
+    "precioDeVenta": "$2500",
+    "categoria": {
+      "nombre": "conjuntos",
+      "id": "ropa interior",
+    },
+  },
+  {
+    "codigo": 02,
+    "nombre": "Bombacha-Boom",
+    "genero": "F",
+    "talle": {
+      "S": "true",
+      "M": "true",
+      "L": "true",
+    },
+    "stock": "true",
+    "imagen": "../imgs/ropainterior/conjunto2.jpg",
+    "precioDeVenta": "$1005",
+    "categoria": {
+      "nombre": "bombachas",
+      "id": "ropa interior",
+    },
+  },
+  };

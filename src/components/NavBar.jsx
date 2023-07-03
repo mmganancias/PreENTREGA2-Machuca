@@ -4,6 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 
 import { CartWidget } from "./CartWidget";
 
+import data from "../data/products.json"
+
 const menu = [
   {text: "Ropa interior", link: "/#ropaInterior"},
   {text: "Accesorios", link: "/#accesorios"},
