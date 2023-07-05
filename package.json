@@ -39,7 +39,7 @@
     ]
   }
 }
-"product": {
+"product": 
   {
     "codigo": 01,
     "nombre": "Conjunto-Ada",
@@ -74,4 +74,4 @@
       "id": "ropa interior",
     },
   },
-  };
+;

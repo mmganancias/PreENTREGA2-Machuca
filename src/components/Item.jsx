@@ -10,8 +10,8 @@ return  (
     className="float-start"
     >
         <Card.Title>{pruduct.name}</Card.Title>
-        <Card.Text>Categoría: {product.category}</Card.Text>
-        <Link to={`/item/${product.id}`}>
+        <Card.Text>Categoría: {product.precioDeVentay}</Card.Text>
+        <Link to={`/Item/${product.id}`}>
             <button variant="primary">Ver detalles</button>
         </Link>
     </Card>
